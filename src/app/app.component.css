@@ -1,0 +1,86 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container .sensor {
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+
+button {
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0a7cff;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #0026ff;
+}
+
+.form-group {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #686868;
+}
+
+.form-group button {
+  margin-top: 10px;
+}
+
+.form-group input {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 17px;
+}
+
+.online {
+  color: lime;
+}
+
+.offline {
+  color: red;
+}
+/*# sourceMappingURL=app.component.css.map */
